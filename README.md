@@ -2,7 +2,7 @@
 
 # Project 2 - GalactiScope - ReadMe Worksheet
 
-**Description**
+## Description
 
 GalactiScope is a web app designed for the purposes of consuming the NASA Apod app in a reactive and visually pleasing way for clients to be able to view the best of NASA pictures and get context behind those pictures.
 
@@ -19,11 +19,11 @@ Below is a list of the deliverables for the project taken from the brief:
 * * **Be deployed online** and accessible to the public (hosted on your public github, not GA github!)
 
  
-**Deployment Link & Repository**
+### Deployment Link & Repository
 
 Project was deployed using netlify, link here: [https://galacticscope.netlify.app/](https://galacticscope.netlify.app/)
 
-**Getting Started/Code Installation**
+### Getting Started/Code Installation
 
 To run the app locally:
 
@@ -35,11 +35,11 @@ To run the app locally:
 
 Or click on the deployment link above.
 
-**Timeframe And Working Team(Pair)**
+### Timeframe And Working Team(Pair)
 
 For this project I was paired up with [Adrienne Szabo](https://github.com/aszab1). The timeframe set out for this project was 2 days including planning, the first half of the first day was dedicated to planning and the project started shortly after sign off.
 
-**Technologies used **
+### Technologies used
 
 
 
@@ -48,7 +48,7 @@ For this project I was paired up with [Adrienne Szabo](https://github.com/aszab1
 * SASS
 * NPM
 
-**Planning:**
+## Planning:
 
 We began planning by researching publicly available API’s and looking for something that would suit both our interests enough to be able to make a compelling project. This is how we found the [APOD](https://apod.nasa.gov/apod/astropix.html) (astronomy picture of the day) API. The website is maintained by NASA and features a different astronomy picture each day along with relevant details of that picture (description of the picture, who it was taken by, etc). The API supports HTTP requests and returns information based on specific endpoints called, which suited our needs. Endpoints below: 
 
@@ -59,7 +59,7 @@ We began planning by researching publicly available API’s and looking for some
 
 We wanted to create a web page where users would be able to see Astronomical picture of that given day on the homepage. We also wanted to create a separate page where users could browse through randomly generated pictures within the APOD API, which if they clicked on would then take them to a page on the site very similar to our landing page where they would be able to get the information of that specific picture, using the same design as the homepage.
 
-**Build/Code Process**
+## Build/Code Process
 
 The project was paircoded, we utilised VSCodes extension “Collaborate with Liveshare” to paircode, almost all parts of the code were completed in tandem, a process where we would identify the component we would want to work on, create a boilerplate for that component and then discuss a method to achieve the functionality we were looking for. 
 
@@ -95,15 +95,15 @@ A library page was also implemented into the project. The way we achieved this w
 
 
 
-**Challenges/Bugs**
+## Challenges/Bugs
 
 The biggest challenge faced during development was the “previous” and “next” buttons on the web page, the next page worked for making a new API call and using state  we were able to change the pictures being displayed on the picture display by calling in 20 new images. However the previous button still does not work even at this point, we tried a few solutions to make it work but due to the limited time-scale we decided we would not have had the appropriate time to fix it. We diagnosed the problem as our web page being unable to fetch complete a re-fetch for the specific images that we would have had on the previous page, because we were not storing the data of these specific images anywhere within our state. At this point all pressing the previous button does is what the next button does, which is fetching random images from the API.
 
-**Wins**
+## Wins
 
 Overall, it was great working collaboratively to build this app within a short timeframe. Despite the time constraints, our effective collaboration stemmed from clear communication and a well-defined division of tasks. Embracing an agile development approach, we regularly conducted brief stand-up meetings to discuss progress, share ideas, and address any roadblocks. Our synergy was further enhanced by utilising version control systems, such as Git, which facilitated seamless code integration and allowed us to work on different features simultaneously. Additionally, leveraging pair programming techniques, we were able to troubleshoot issues in real-time and learn from each other's insights. While there are still some bugs to fix, the successful deployment of the Minimum Viable Product (MVP) stands as a testament to our teamwork, adaptability, and shared commitment to the project's success.
 
-**Future Improvements**
+## Future Improvements
 
 
 
