@@ -12,7 +12,7 @@ Below is a list of the deliverables for the project taken from the brief:
 
 
 
-* *Consume a public API** – this could be anything but it must make sense for your project.
+* **Consume a public API** – this could be anything but it must make sense for your project.
 * * **Have several components**
 * * **The app can have a router** - with several "pages", this is up to you and if it makes sense for your project.
 * * **Include wireframes** - that you designed before building the app.
